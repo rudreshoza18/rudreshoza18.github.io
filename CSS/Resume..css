@@ -1,28 +1,87 @@
-body {
-    margin: 0;
-    padding: 0;
+@import "https://fonts.googleapis.com/css2?family=Peddana&display=swap";
+
+
+
+body{
+  font-family: 'Peddana', serif;
+
+  margin: 0; 
+  padding:0;
+  height: 100vh;
+  background-image: linear-gradient(#000000, #2BD1FF, #a5faf9, #87f8f6,#000000);
+  background-repeat: no-repeat;  
+  background-size: cover;
+
+
+}
+.navbar-brand{
+  font-size: 50px;
+}
+.nav-item{
+  font-size: 24px;
+}
+.imgclass{
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+}
+
+.container{
+    font-size: 25px;
+    padding: 30px;
+}
+.btn{
+    font-size: 30px;
+}
+.col-sm{
+    padding:30px;
+}
+.btn{
+    height: 55px;
+    padding: 10px;
+}
+.copyname {
+  margin: 1px;
+  height: 11em;
+  padding: 20px;
+  /* background-image: linear-gradient(#87f8f6, #87f8f6, #87f8f6); */
+}
+
+.socialcss {
+  font-family: "Peddana", serif;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 2s;
+  text-align: center;
+}
+
+a {
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.insta:hover {
+  letter-spacing: 1px;
+}
+.fb:hover {
+  letter-spacing: 1px;
+}
+.lk:hover {
+  letter-spacing: 1px;
+}
+.git:hover {
+  letter-spacing: 1px;
+}
+.contact:hover {
+  letter-spacing: 1px;
+}
+.copyrights {
   
-    background-image: linear-gradient(
-      #000000,
-      #2bd1ff,
-      #a5faf9,
-      #87f8f6,
-      #000000
-    );
-    height: 59em;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .resumeint{
-    overflow: auto;
-    text-align: center;
-  
-    height: 80ex;
-    width: 100%;
-    opacity: 1;
-    padding-top: 100px;
-  }
-  object{
-      width: 70%;
-      height: 40em;
-  }
+  letter-spacing: 2px;
+  text-align: center;
+}
