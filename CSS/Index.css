@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-
+  height: 100vh;
   background-image: linear-gradient(
     #000000,
     #2bd1ff,
@@ -13,6 +13,7 @@ body {
   );
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 .nav-item{
   font-size: 20px;
