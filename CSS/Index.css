@@ -31,6 +31,10 @@ body {
   margin-bottom: 10px;
   transition: 2s;
 }
+.bi-emoji-smile{
+  border-radius: 0.8em;
+  background-color: yellow;
+}
 
 .namecont {
   
